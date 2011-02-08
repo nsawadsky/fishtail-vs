@@ -113,8 +113,11 @@
   <ItemGroup>
     <Content Include="..\..\..\Users\Nick\Documents\Visual Studio 2010\Addins\CodeModelAddIn1 - For Testing.AddIn">
       <Link>CodeModelAddIn1 - For Testing.AddIn</Link>
+      <SubType>Designer</SubType>
     </Content>
-    <Content Include="CodeModelAddIn1.AddIn" />
+    <Content Include="CodeModelAddIn1.AddIn">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
   <PropertyGroup>
