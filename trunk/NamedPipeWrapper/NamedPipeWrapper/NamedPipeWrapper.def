@@ -1,0 +1,3 @@
+LIBRARY NamedPipeWrapper
+EXPORTS 
+  fnNamedPipeWrapper @1
